@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="icon" href="img/icon.svg" type="image/x-icon">
+   <title>Englishify</title>
+</head>
+
+
+<body>
+   <div class="wrapper">
+
+      <div class="header">
+   <div class="header__container container">
+      <div class="header__left">
+         <a href="index.html" class="header__blog">Блог</a>
+         <a href="test.html" class="header__test">Тест</a>
+      </div>
+      <img class="header__logo" src="img/logo.jpg" alt="Englishify">
+      <div class="header__right">
+         <a href="about.html" class="header__about">Про нас</a>
+         <div class="header__registration">
+            <button class="header__login">Увійти</button>
+            <button class="header__signup">Реєстрація</button>
+         </div>
+      </div>
+   </div>
+</div>
+
+
+<div class="popup" id="popup-login">
+   <div class="popup__content">
+      <span class="popup__close" id="close-login">&times;</span>
+      <div class="popup__in">Вхід до аккаунту</div>
+      <form id="login-form">
+         <!-- <label for="email-login">Email:</label> -->
+         <input type="email" id="email-login" name="email-login" required placeholder="Введіть ваш email">
+         <!-- <label for="password-login">Пароль:</label> -->
+         <input type="password" id="password-login" name="password-login" required placeholder="Введіть ваш пароль">
+         <button type="submit">Увійти</button>
+      </form>
+   </div>
+</div>
+
+<div class="popup" id="popup-signup">
+   <div class="popup__content">
+      <span class="popup__close" id="close-signup">&times;</span>
+      <div class="popup__in">Зареєструйте аккаунт</div>
+      <form id="signup-form">
+         <!-- <label for="name-signup">Ім'я:</label> -->
+         <input type="text" id="name-signup" name="name-signup" required placeholder="Як вас звуть?">
+         <!-- <label for="phone-signup">Телефон:</label> -->
+         <input type="tel" id="phone-signup" name="phone-signup" required placeholder="Введіть ваш номер телефону">
+         <!-- <label for="email-signup">Email:</label> -->
+         <input type="email" id="email-signup" name="email-signup" required placeholder="Зазначте ваш email">
+         <!-- <label for="password-signup">Пароль:</label> -->
+         <input type="password" id="password-signup" name="password-signup" required placeholder="Придумайте пароль">
+         <button type="submit">Реєстрація</button>
+      </form>
+   </div>
+</div>
+
+      <main class="main">
+
+         <div class="main__container container">
+            <div class="main__title">
+               <p class="main__title-text">
+                  Опис блогу...
+               </p>
+            </div>
+            <a href="article1.html" class="main__article article">
+               <div class="article__image">
+                  <img src="img/article-image.jpg" alt="Article image">
+               </div>
+               <div class="article__text">
+                  <div class="article__title">
+                     Lorem, ipsum dolor.
+                  </div>
+                  <div class="article__subtitle">
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, suscipit? Nostrum nobis
+                     animi incidunt excepturi a at vel doloribus. Quisquam est accusantium soluta tempore minus, minima,
+                     necessitatibus temporibus iste asperiores laudantium aut culpa unde quibusdam?
+                  </div>
+               </div>
+            </a>
+            <a href="article2.html" class="main__article article image-right">
+               <div class="article__image">
+                  <img src="img/article-image-2.jpg" alt="Article image">
+               </div>
+               <div class="article__text">
+                  <div class="article__title">
+                     Lorem, ipsum dolor.
+                  </div>
+                  <div class="article__subtitle">
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, suscipit? Nostrum nobis
+                     animi incidunt excepturi a at vel doloribus. Quisquam est accusantium soluta tempore minus, minima,
+                     necessitatibus temporibus iste asperiores laudantium aut culpa unde quibusdam?
+                  </div>
+               </div>
+            </a>
+            <a href="article3.html" class="main__article article">
+               <div class="article__image">
+                  <img src="img/article-image-3.jpg" alt="Article image">
+               </div>
+               <div class="article__text">
+                  <div class="article__title">
+                     Lorem, ipsum dolor.
+                  </div>
+                  <div class="article__subtitle">
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, suscipit? Nostrum nobis
+                     animi incidunt excepturi a at vel doloribus. Quisquam est accusantium soluta tempore minus, minima,
+                     necessitatibus temporibus iste asperiores laudantium aut culpa unde quibusdam?
+                  </div>
+               </div>
+            </a>
+            <a href="article4.html" class="main__article article image-right">
+               <div class="article__image">
+                  <img src="img/article-image-4.jpg" alt="Article image">
+               </div>
+               <div class="article__text">
+                  <div class="article__title">
+                     Lorem, ipsum dolor.
+                  </div>
+                  <div class="article__subtitle">
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, suscipit? Nostrum nobis
+                     animi incidunt excepturi a at vel doloribus. Quisquam est accusantium soluta tempore minus, minima,
+                     necessitatibus temporibus iste asperiores laudantium aut culpa unde quibusdam?
+                  </div>
+               </div>
+            </a>
+
+         </div>
+
+      </main>
+
+      <footer class="footer">
+   <p class="footer__copyright">© Copyright</p>
+   <p class="footer__rights">All rights reserved</p>
+</footer>
+   </div>
+
+
+
+   <script src="js/script.bundle.js"></script>
+</body>
+
+</html>
